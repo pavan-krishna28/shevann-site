@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "siteName": "Shevann",
+    "tagline": "Studio for brands. Academy for builders.",
+    "founders": "Pavan & Shwetha",
+    "location": "Bengaluru, India",
+    "logoRibbonColors": { "from": "#FF6B4A", "to": "#FFA630" }
+  },
+  "theme": {
+    "navy": "#0E1526",
+    "navySurface": "#131B2E",
+    "navySoft": "#1B2540",
+    "coral": "#FF6B4A",
+    "amber": "#FFA630",
+    "ink": "#F5F3EF",
+    "muted": "#8B93A7"
+  },
+  "nav": {
+    "logoText": "Shevann",
+    "cta": { "label": "Let's talk", "target": "contact" }
+  },
+  "pages": [
+    { "id": "home", "path": "/", "label": "Home", "showInNav": false },
+    { "id": "studio", "path": "/studio", "label": "Studio", "showInNav": true },
+    { "id": "academy", "path": "/academy", "label": "Academy", "showInNav": true },
+    { "id": "work", "path": "/work", "label": "Work", "showInNav": true },
+    { "id": "about", "path": "/about", "label": "About", "showInNav": true },
+    { "id": "contact", "path": "/contact", "label": "Contact", "showInNav": true }
+  ],
+  "hero": {
+    "eyebrow": "",
+    "headline": "We build brands and the builders behind them.",
+    "subhead": "Shevann is a Bengaluru product studio and a hands-on internship academy, run as one system — real client work is the training ground.",
+    "primaryCta": { "label": "Get a quote", "target": "contact" },
+    "secondaryCta": { "label": "Apply for internship", "target": "/academy" }
+  },
+  "pathChooser": {
+    "heading": "Two doors. One studio.",
+    "subheading": "Tell us why you're here and we'll take it from there.",
+    "cards": [
+      {
+        "id": "studio-card",
+        "title": "I'm hiring for a project",
+        "description": "Web design, product builds, and digital strategy for founders and teams who need a partner, not a vendor.",
+        "cta": { "label": "Get a quote", "target": "/studio" },
+        "accent": "coral"
+      },
+      {
+        "id": "academy-card",
+        "title": "I want to build real things",
+        "description": "A hands-on internship where you ship actual client work, mentored by the people who built Shevann.",
+        "cta": { "label": "Apply for Internship", "target": "/academy" },
+        "accent": "amber"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "web-design",
+      "title": "Web Design & Development",
+      "summary": "Fast, distinctive websites built to convert — not templated themes.",
+      "outcomes": ["Custom design system", "Mobile-first build", "SEO-ready structure"],
+      "icon": "layout"
+    },
+    {
+      "id": "product-design",
+      "title": "Product Design",
+      "summary": "From first sketch to shipped interface, for startups building their core product.",
+      "outcomes": ["UX research & flows", "Design system", "Prototype to production handoff"],
+      "icon": "figma"
+    },
+    {
+      "id": "brand-identity",
+      "title": "Brand Identity",
+      "summary": "Logo, voice, and visual system that holds up across every surface you own.",
+      "outcomes": ["Logo & mark", "Brand guidelines", "Launch assets"],
+      "icon": "sparkles"
+    },
+    {
+      "id": "digital-strategy",
+      "title": "Digital Strategy",
+      "summary": "A clear roadmap for where your product or brand goes next, backed by research.",
+      "outcomes": ["Audit & positioning", "Growth roadmap", "Content strategy"],
+      "icon": "compass"
+    }
+  ],
+  "process": {
+    "heading": "How a project runs",
+    "steps": [
+      { "title": "Discover", "description": "We learn your business, users, and goals before touching a single pixel." },
+      { "title": "Design", "description": "Concepts, iteration, and a design system built to scale with you." },
+      { "title": "Build", "description": "Production-ready code, tested and optimized for speed." },
+      { "title": "Launch & grow", "description": "We ship, then stay close for the next phase." }
+    ]
+  },
+  "academy": {
+    "heading": "Learn by shipping, not by simulating.",
+    "description": "Shevann Academy places students directly on live client projects. You don't build sample apps — you build what Studio clients actually pay for, with senior mentors reviewing your work.",
+    "tracks": [
+      { "title": "Frontend Track", "description": "React, design systems, and real UI work on client projects." },
+      { "title": "Design Track", "description": "Product and brand design work reviewed against live client briefs." },
+      { "title": "Full-Stack Track", "description": "End-to-end feature ownership across a client engagement." }
+    ],
+    "cta": { "label": "Apply for Internship", "target": "contact" }
+  },
+  "portfolio": [
+    {
+      "id": "project-1",
+      "title": "Nimbus Foods",
+      "category": "Brand + Web",
+      "description": "Full rebrand and e-commerce site for a D2C food startup.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80",
+      "tags": ["Branding", "Web Design", "E-commerce"]
+    },
+    {
+      "id": "project-2",
+      "title": "Lattice Analytics",
+      "category": "Product Design",
+      "description": "SaaS dashboard redesign to simplify a complex analytics workflow.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+      "tags": ["Product Design", "SaaS"]
+    },
+    {
+      "id": "project-3",
+      "title": "Verdant Realty",
+      "category": "Web Development",
+      "description": "High-conversion listings site with custom search and filtering.",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+      "tags": ["Web Development", "Real Estate"]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Shevann didn't just design our site — they understood the business behind it.",
+      "author": "Founder",
+      "company": "Nimbus Foods"
+    },
+    {
+      "id": "t2",
+      "quote": "The team moved fast without cutting corners. Our dashboard finally makes sense to users.",
+      "author": "Head of Product",
+      "company": "Lattice Analytics"
+    }
+  ],
+  "about": {
+    "heading": "Two founders, one studio, one classroom.",
+    "story": "Shevann was founded by Pavan and Shwetha in Bengaluru on a simple idea: the best way to train the next generation of builders is to put them on real client work, mentored by people who've shipped it before. Studio and Academy aren't two businesses — they're one system.",
+    "values": [
+      { "title": "Craft over templates", "description": "Every project gets a decision made for it, not a default applied to it." },
+      { "title": "Teach by doing", "description": "Interns work on live briefs, not simulations." },
+      { "title": "No black boxes", "description": "Clients and students both get clear process, clear outcomes, no pricing games." }
+    ]
+  },
+  "contact": {
+    "heading": "Tell us what you're building.",
+    "subheading": "Whether it's a project or an internship — start the conversation.",
+    "email": "hello@shevann.com",
+    "formFields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "email", "label": "Email", "type": "email", "required": true },
+      { "name": "type", "label": "I'm interested in", "type": "select", "options": ["Studio project", "Academy internship", "Something else"], "required": true },
+      { "name": "message", "label": "Message", "type": "textarea", "required": true }
+    ],
+    "note": "This form doesn't send automatically on a static site — it opens your email client with the details pre-filled."
+  },
+  "footer": {
+    "text": "Shevann — Studio & Academy, Bengaluru.",
+    "links": [
+      { "label": "Studio", "target": "/studio" },
+      { "label": "Academy", "target": "/academy" },
+      { "label": "Work", "target": "/work" },
+      { "label": "Contact", "target": "/contact" }
+    ],
+    "social": []
+  },
+  "chatbot": {
+    "greeting": "Hi, I'm the Shevann assistant. Ask me about Studio, Academy, or how to get started.",
+    "fallback": "I don't have an answer for that yet — but our team does. Head to the Contact page and we'll get back to you.",
+    "knowledge": [
+      {
+        "id": "k1",
+        "keywords": ["price", "pricing", "cost", "how much", "rate", "budget"],
+        "answer": "We don't publish pricing — every project is scoped based on your goals. Get a quote and we'll put together a proposal."
+      },
+      {
+        "id": "k2",
+        "keywords": ["internship", "academy", "student", "intern", "apply"],
+        "answer": "Shevann Academy is a hands-on internship where you work on real client projects, mentored by our team. Head to the Academy page to apply."
+      },
+      {
+        "id": "k3",
+        "keywords": ["service", "services", "what do you do", "offer"],
+        "answer": "We offer web design & development, product design, brand identity, and digital strategy. Check the Studio page for details."
+      },
+      {
+        "id": "k4",
+        "keywords": ["contact", "reach", "email", "talk", "call"],
+        "answer": "You can reach us through the Contact page, or email hello@shevann.com directly."
+      },
+      {
+        "id": "k5",
+        "keywords": ["location", "based", "where", "bengaluru", "bangalore"],
+        "answer": "Shevann is based in Bengaluru, India."
+      },
+      {
+        "id": "k6",
+        "keywords": ["timeline", "how long", "duration"],
+        "answer": "Project timelines depend on scope — most web builds run 4–8 weeks. Get a quote for a timeline specific to your project."
+      }
+    ]
+  }
+}
