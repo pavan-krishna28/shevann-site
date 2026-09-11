@@ -17,7 +17,7 @@ export default function Academy() {
             <p className="mt-3 max-w-2xl text-ink/70">{academy.description}</p>
             <Link
               to="/contact"
-              className="mt-8 inline-block rounded-full bg-coral-gradient px-7 py-3 text-sm font-semibold text-navy transition-transform hover:scale-105"
+              className="mt-8 inline-block rounded-btn bg-coral-gradient px-7 py-3 text-sm font-semibold text-navy transition-transform hover:scale-105"
             >
               {academy.cta.label}
             </Link>

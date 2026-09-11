@@ -6,6 +6,9 @@
     "location": "Bengaluru, India",
     "logoRibbonColors": { "from": "#FF6B4A", "to": "#FFA630" }
   },
+  "admin": {
+    "passphrase": "shevann2026"
+  },
   "theme": {
     "navy": "#0E1526",
     "navySurface": "#131B2E",
@@ -13,7 +16,11 @@
     "coral": "#FF6B4A",
     "amber": "#FFA630",
     "ink": "#F5F3EF",
-    "muted": "#8B93A7"
+    "muted": "#8B93A7",
+    "headingFont": "Fraunces",
+    "bodyFont": "Manrope",
+    "fontScale": 1,
+    "btnRadius": "9999px"
   },
   "nav": {
     "logoText": "Shevann",
@@ -24,6 +31,7 @@
     { "id": "studio", "path": "/studio", "label": "Studio", "showInNav": true },
     { "id": "academy", "path": "/academy", "label": "Academy", "showInNav": true },
     { "id": "work", "path": "/work", "label": "Work", "showInNav": true },
+    { "id": "blog", "path": "/blog", "label": "Blog", "showInNav": true },
     { "id": "about", "path": "/about", "label": "About", "showInNav": true },
     { "id": "contact", "path": "/contact", "label": "Contact", "showInNav": true }
   ],
@@ -152,6 +160,23 @@
       { "title": "No black boxes", "description": "Clients and students both get clear process, clear outcomes, no pricing games." }
     ]
   },
+  "blog": {
+    "heading": "From the studio",
+    "subheading": "Notes on projects, process, and what we're learning as we build Shevann.",
+    "posts": [
+      {
+        "id": "post-1",
+        "slug": "welcome-to-the-shevann-blog",
+        "title": "Welcome to the Shevann blog",
+        "excerpt": "Why we're writing here, and what to expect.",
+        "content": "We're starting this blog to share what we're learning as we build brands, products, and the Academy alongside them.\n\nExpect project breakdowns, process notes, and the occasional lesson learned the hard way. Edit or delete this post from the admin panel's Blog tab whenever you're ready.",
+        "coverImage": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
+        "videoUrl": "",
+        "date": "2026-01-01",
+        "published": true
+      }
+    ]
+  },
   "contact": {
     "heading": "Tell us what you're building.",
     "subheading": "Whether it's a project or an internship — start the conversation.",
@@ -162,7 +187,7 @@
       { "name": "type", "label": "I'm interested in", "type": "select", "options": ["Studio project", "Academy internship", "Something else"], "required": true },
       { "name": "message", "label": "Message", "type": "textarea", "required": true }
     ],
-    "note": "This form doesn't send automatically on a static site — it opens your email client with the details pre-filled."
+    "note": "We usually reply within 1-2 business days."
   },
   "footer": {
     "text": "Shevann — Studio & Academy, Bengaluru.",
@@ -170,6 +195,7 @@
       { "label": "Studio", "target": "/studio" },
       { "label": "Academy", "target": "/academy" },
       { "label": "Work", "target": "/work" },
+      { "label": "Blog", "target": "/blog" },
       { "label": "Contact", "target": "/contact" }
     ],
     "social": []

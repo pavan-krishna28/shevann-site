@@ -10,6 +10,13 @@
   --amber: #FFA630;
   --ink: #F5F3EF;
   --muted: #8B93A7;
+
+  /* Theme controls editable live from the admin panel (see ThemeVars.jsx). Defaults below
+     match the values already baked into src/data/site-content.json's "theme" object. */
+  --font-display: "Fraunces";
+  --font-body: "Manrope";
+  --font-scale: 1;
+  --btn-radius: 9999px;
 }
 
 * {
@@ -20,15 +27,21 @@ html, body, #root {
   height: 100%;
 }
 
+html {
+  /* Scales every rem-based size on the page (Tailwind's text-* utilities are all rem-based),
+     so this one variable is a global "text size" control. */
+  font-size: calc(100% * var(--font-scale));
+}
+
 body {
   background-color: var(--navy);
   color: var(--ink);
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-body), sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, .font-display {
-  font-family: "Fraunces", serif;
+  font-family: var(--font-display), serif;
   letter-spacing: -0.01em;
 }
 

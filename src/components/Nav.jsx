@@ -49,7 +49,7 @@ export default function Nav() {
 
         <Link
           to="/contact"
-          className="hidden rounded-full bg-coral-gradient px-5 py-2 text-sm font-semibold text-navy transition-transform hover:scale-105 md:inline-block"
+          className="hidden rounded-btn bg-coral-gradient px-5 py-2 text-sm font-semibold text-navy transition-transform hover:scale-105 md:inline-block"
         >
           {nav.cta?.label || "Let's talk"}
         </Link>
@@ -77,7 +77,7 @@ export default function Nav() {
             <li>
               <Link
                 to="/contact"
-                className="mt-2 block rounded-full bg-coral-gradient px-4 py-2 text-center text-sm font-semibold text-navy"
+                className="mt-2 block rounded-btn bg-coral-gradient px-4 py-2 text-center text-sm font-semibold text-navy"
                 onClick={() => setOpen(false)}
               >
                 {nav.cta?.label || "Let's talk"}

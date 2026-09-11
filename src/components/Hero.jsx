@@ -19,13 +19,13 @@ export default function Hero() {
         <div className="mt-9 flex flex-wrap items-center gap-4">
           <Link
             to={hero.primaryCta.target === "contact" ? "/contact" : hero.primaryCta.target}
-            className="rounded-full bg-coral-gradient px-7 py-3 text-sm font-semibold text-navy shadow-lg shadow-coral/20 transition-transform hover:scale-105"
+            className="rounded-btn bg-coral-gradient px-7 py-3 text-sm font-semibold text-navy shadow-lg shadow-coral/20 transition-transform hover:scale-105"
           >
             {hero.primaryCta.label}
           </Link>
           <Link
             to={hero.secondaryCta.target}
-            className="rounded-full border border-ink/25 px-7 py-3 text-sm font-semibold text-ink transition-colors hover:border-coral hover:text-coral"
+            className="rounded-btn border border-ink/25 px-7 py-3 text-sm font-semibold text-ink transition-colors hover:border-coral hover:text-coral"
           >
             {hero.secondaryCta.label}
           </Link>

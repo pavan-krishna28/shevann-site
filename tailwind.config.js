@@ -5,21 +5,24 @@ export default {
     extend: {
       colors: {
         navy: {
-          DEFAULT: "#0E1526",
-          surface: "#131B2E",
-          soft: "#1B2540",
+          DEFAULT: "var(--navy)",
+          surface: "var(--navy-surface)",
+          soft: "var(--navy-soft)",
         },
-        coral: "#FF6B4A",
-        amber: "#FFA630",
-        ink: "#F5F3EF",
-        muted: "#8B93A7",
+        coral: "var(--coral)",
+        amber: "var(--amber)",
+        ink: "var(--ink)",
+        muted: "var(--muted)",
       },
       fontFamily: {
-        display: ["Fraunces", "serif"],
-        body: ["Manrope", "sans-serif"],
+        display: ["var(--font-display)", "serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
       backgroundImage: {
-        "coral-gradient": "linear-gradient(120deg, #FF6B4A 0%, #FFA630 100%)",
+        "coral-gradient": "linear-gradient(120deg, var(--coral) 0%, var(--amber) 100%)",
+      },
+      borderRadius: {
+        btn: "var(--btn-radius)",
       },
     },
   },

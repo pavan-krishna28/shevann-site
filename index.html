@@ -15,6 +15,23 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!--
+      Netlify detects forms by scanning the BUILT static HTML for a <form data-netlify="true">.
+      Because this site is a React SPA, the real form only exists in the DOM at runtime, so this
+      hidden, hardcoded twin (never shown to visitors) is what lets Netlify's build-time crawler
+      register the form and its exact field names. The live React form in Contact.jsx submits to
+      "/" with matching field names via fetch — see that file for details. Do not remove this or
+      the contact form will silently stop delivering email.
+    -->
+    <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="type" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

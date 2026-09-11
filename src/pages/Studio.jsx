@@ -21,7 +21,7 @@ export default function Studio() {
             </p>
             <Link
               to="/contact"
-              className="mt-8 inline-block rounded-full bg-coral-gradient px-7 py-3 text-sm font-semibold text-navy transition-transform hover:scale-105"
+              className="mt-8 inline-block rounded-btn bg-coral-gradient px-7 py-3 text-sm font-semibold text-navy transition-transform hover:scale-105"
             >
               Get a quote
             </Link>
